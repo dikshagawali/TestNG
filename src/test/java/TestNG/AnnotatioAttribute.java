@@ -36,7 +36,7 @@ public void testcase3() {
 			System.out.println("API login testcase");
 		}
 	
-	@Test(dependsOnMethods = {"testcase1"}) //dependonmethod attribute
+	@Test(dependsOnMethods = {"testcase1"}) //depend on method attribute
 	
 	public void testcase5() {
 		
